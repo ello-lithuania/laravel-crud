@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+header {
+    background: transparent !important;
+}
+.hidden {
+    display: none !important;
+}
+.header-middle {
+    background: #081828;
+}
+#category-list {
+    height: auto;
+    transition:all 3s ease-in-out;
+    background: white;
+}
+
+#category-list a {
+    color: #212529;
+    text-decoration: none;
+    padding: .3rem .4rem;
+    font-size: 1.1rem;
+    transition: all .2s ease-in-out;
+    border-radius: .4rem;
+}
+#category-list a:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hidden-categories {
+    height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+.hero-area {
+    background: transparent;
+}
+header a.btn:hover, .btn-invert:hover {
+    background: white !important;
+    color: #081828 !important;
+}
